@@ -32,12 +32,12 @@ commit する際は、自分のブランチを作成し、そこにコミット�
 後でmasterに自分のブランチをマージする
 - ブランチの作成   
 ~~~
-    git brunch hogehogebrunch 
+    git branch hogehogebrunch 
 ~~~
-hogehogebrunchの部分に自分の名前のbrunsh名を入れてブランチを作成する
+hogehogebranchの部分に自分の名前のbranch名を入れてブランチを作成する
 - ブランチの切り替え  
 ~~~
-    git checkout hogehogebrunch
+    git checkout hogehogebranch
 ~~~
 ブランチを先ほど作成したブランチに切り替える
 - コミット
