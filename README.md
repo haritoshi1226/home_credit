@@ -27,30 +27,32 @@
 3. 自分のディレクトリが作成されたら、その中に分析コードを書く  
 
 # 運用
-## commit
-commit する際は、自分のブランチを作成し、そこにコミットする  
-後でmasterに自分のブランチをマージする
-- ブランチの作成   
+変更をGitHubにpushする際は、自分のブランチを作成し、そこにコミットする  
+その後masterに自分のブランチをマージし、GitHubにpushする  
+1. ブランチの作成  
+hogehogebranchの部分に自分の名前のbranch名を入れてブランチを作成する   
 ~~~
     git branch hogehogebrunch 
-~~~
-hogehogebranchの部分に自分の名前のbranch名を入れてブランチを作成する
-- ブランチの切り替え  
+~~~ 
+2. ブランチの切り替え  
+ブランチを先ほど作成したブランチに切り替える
 ~~~
     git checkout hogehogebranch
 ~~~
-ブランチを先ほど作成したブランチに切り替える
-- コミット
+3. 自分のブランチにコミット  
+自分のブランチ内に、更新結果をコミットする
 ~~~
     git add -A
     git commit -m 'hogehoge'
 ~~~
-コミットを書き込む
-- マージ  
-ブランチを「master」に切り替え、マージし、GitHubにpushする
+4. マージ  
+ブランチを「master」に切り替え、マージし、GitHubにpushする  
+git pullコマンドを実行した際、自分の変更した分は一旦消えてしまうため、必ず自分のブランチであらかじめcommitをしておくこと
 ~~~
     git checkout master
     git pull master
     git merge hogehogebrunch
     git push origin master
 ~~~
+
+5. 2〜4を繰り替えす
