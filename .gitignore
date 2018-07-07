@@ -1,0 +1,3 @@
+# 要らないファイル
+*.idea
+*.ipynb_checkpoints
