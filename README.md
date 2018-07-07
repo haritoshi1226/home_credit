@@ -1,7 +1,7 @@
 # 目的
 データサイエンス勉強会 at 電通にて、[kaggle Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk)用のGit  
 
-#フォルダ構成
+# フォルダ構成
 |- data  
 　　|- application_test.csv  
 　　|- application_train.csv  
@@ -20,8 +20,9 @@
 # 使用方法
 1. このレポジトリをクローンする 
 
- 
+''' 
     git clone git@github.com:haritoshi1226/home_credit.git
+'''
 2. 梁木に自分のGitHubアカウントをSlackで知らせる
 3. 自分のディレクトリが作成されたら、その中に分析コードを書く  
 
